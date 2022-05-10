@@ -25,9 +25,9 @@ public class PartidaDeXadrez {
 	}
 	
 	private void ConfigInicial() {
-		tabuleiro.ColocarPeca(new Torre(tabuleiro, Cor.BRANCA), new Posicao(2, 1));
-		tabuleiro.ColocarPeca(new Rei(tabuleiro, Cor.PRETA), new Posicao(0, 4));
-		tabuleiro.ColocarPeca(new Torre(tabuleiro, Cor.BRANCA), new Posicao(7, 4));
+		tabuleiro.colocarPeca(new Torre(tabuleiro, Cor.BRANCA), new Posicao(2, 1));
+		tabuleiro.colocarPeca(new Rei(tabuleiro, Cor.PRETA), new Posicao(0, 4));
+		tabuleiro.colocarPeca(new Torre(tabuleiro, Cor.BRANCA), new Posicao(7, 4));
 	}
 	
 }
