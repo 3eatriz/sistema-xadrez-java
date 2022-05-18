@@ -101,7 +101,6 @@ public class Rainha extends PecaDeXadrez {
 		if (getTabuleiro().posicaoExiste(p) && existePecaInimiga(p)) {
 			mat[p.getLinha()][p.getColuna()] = true;
 		}
-
 		return mat;
 	}
 }
